@@ -1,0 +1,30 @@
+/* основной цвет #212121 */
+/* вторичній цвет #757575 */
+/* белый #FFFFFF*/
+/* акцент-синий #2196F3*/
+/* background: #F5F4FA;
+background: #2F303A;
+ */
+
+:root{
+    --primary-text-color:#212121;
+    --titl-text-color:#757575;
+    --accent-color:#2196F3;
+}
+body {
+font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+background: #F5F5F5;
+color: var(--primary-text-color);
+}
+
+.header-link{
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+
+
+}
+
