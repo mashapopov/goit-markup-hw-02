@@ -11,20 +11,174 @@ background: #2F303A;
     --titl-text-color:#757575;
     --accent-color:#2196F3;
 }
+ 
 body {
 font-family: 'Roboto', sans-serif;
-font-family: 'Raleway', sans-serif;
-background: #F5F5F5;
-color: var(--primary-text-color);
+/* font-family: 'Raleway', sans-serif; */
+    background: #F5F5F5;
+    color: var(--primary-text-color);
 }
-
+/* ----------------------шапка - header----------------------*/
 .header-link{
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: var(--accent-color);
-
-
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: black;
+}
+.colortext
+{
+    color: var(--accent-color)  ;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.header{
+    background-color:#FFFFFF ;
+}
+.header-links{   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.header-links:hover,
+.header-links:focus {
+    color: var(--accent-color);
+}
+.header-mail, .header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--titl-text-color);
+}
+.header-mail:hover, .header-tel:hover,
+.header-mail:focus, .header-tel:focus
+{   color: var(--accent-color);}
+/* -------------шапка в mane--------------- */
+.hat{
+    background: #2F303A;
+}
+.hat-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: #FFFFFF;
 }
 
+.hat-btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    background-color:var(--accent-color) ;
+    color: #FFFFFF;
+     cursor: pointer;
+    }  
+/* -------------------особенности -----------------*/
+.property-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;}
+
+.property-titles{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+.property-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--titl-text-color);
+}
+/* -------------------наши роботі--------------- */
+ .work-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color:var(--primary-text-color);
+    }
+
+/* ---------команда--------------- */
+
+.team{
+    background: #F5F4FA;
+}
+ .team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color:var(--primary-text-color);
+ }
+  .team-item-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+     /* text-align: center;  */
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+  }
+  .team-item-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--titl-text-color);
+  }
+
+/* ----------------футер-подвал ------------------*/
+.footer-mail, .footer-tel{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail:hover, .footer-tel:hover,
+.footer-mail:focus, .footer-tel:focus{
+    color: var(--accent-color);
+}
+.footer{
+    background: #2F303A;
+}
+.adress-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-link{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
