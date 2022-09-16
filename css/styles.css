@@ -52,6 +52,10 @@ font-family: 'Roboto', sans-serif;
 .header-links:focus {
     color: var(--accent-color);
 }
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
 .header-mail, .header-tel {
     font-weight: 500;
     font-size: 14px;
@@ -184,6 +188,8 @@ font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+.footer-link:hover, .footer-link:focus
+{color: var(--accent-color);}
 /*  -------PORTFOLIO------------------- */
 .buttons{
 font-weight: 500;
@@ -193,12 +199,13 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
 background: #F5F4FA;
+cursor: pointer;
 }
 .buttons:hover,
 .buttons:focus{
     color: #FFFFFF;
     background: var(--accent-color);
-    cursor: pointer;
+    
 }
 .photo-title{
  font-weight: 700;
