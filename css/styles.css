@@ -153,6 +153,7 @@ font-family: 'Roboto', sans-serif;
 
 /* ----------------футер-подвал ------------------*/
 .footer-mail, .footer-tel{
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -167,6 +168,7 @@ font-family: 'Roboto', sans-serif;
     background: #2F303A;
 }
 .adress-text{
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -181,4 +183,34 @@ font-family: 'Roboto', sans-serif;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+}
+/*  -------PORTFOLIO------------------- */
+.buttons{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+background: #F5F4FA;
+}
+.buttons:hover,
+.buttons:focus{
+    color: #FFFFFF;
+    background: var(--accent-color);
+    cursor: pointer;
+}
+.photo-title{
+ font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--primary-text-color);
+}
+.photo-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--titl-text-color);
 }
