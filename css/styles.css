@@ -74,6 +74,10 @@ font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    /* or 136% */
+    /* text-align: center; */
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: #FFFFFF;
 }
 
@@ -85,10 +89,11 @@ font-family: 'Roboto', sans-serif;
     line-height: 1.87;
     background-color:var(--accent-color) ;
     color: #FFFFFF;
-     cursor: pointer;
+    cursor: pointer;
+    letter-spacing: 0.06em
     }  
 /* -------------------особенности -----------------*/
-.property-title {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -109,7 +114,6 @@ font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
 }
 .property-text{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -147,7 +151,6 @@ font-family: 'Roboto', sans-serif;
     color: var(--primary-text-color);
   }
   .team-item-text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     /* text-align: center; */
@@ -158,7 +161,6 @@ font-family: 'Roboto', sans-serif;
 /* ----------------футер-подвал ------------------*/
 .footer-mail, .footer-tel{
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -173,7 +175,6 @@ font-family: 'Roboto', sans-serif;
 }
 .adress-text{
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -192,6 +193,8 @@ font-family: 'Roboto', sans-serif;
 {color: var(--accent-color);}
 /*  -------PORTFOLIO------------------- */
 .buttons{
+font-family: 'Roboto';
+font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -215,7 +218,6 @@ letter-spacing: 0.06em;
 color: var(--primary-text-color);
 }
 .photo-text{
-font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
